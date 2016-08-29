@@ -10,7 +10,7 @@ char daysOfTheWeek[7][12] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursd
 #include <DallasTemperature.h>
 //#include <LiquidCrystal.h>
  
-// Data wire is plugged into pin 2 on the Arduino
+// Data wire is plugged into pin 2 on the Arduinoo
 #define ONE_WIRE_BUS 2
  
 // Setup a oneWire instance to communicate with any OneWire devices 
