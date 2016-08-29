@@ -63,7 +63,7 @@ pinMode(buttomStateSwitch,INPUT);
   Alarm.alarmRepeat(7,00,00, Lights_SunRaise);  // 7:00am  every day
   Alarm.alarmRepeat(8,00,00,Lights_Day);        // 8:00am  every day
   Alarm.alarmRepeat(13,00,00,Lights_Night);     // 13:00am every day
-  Alarm.alarmRepeat(19,00,10,Lights_Evening);   // 20:30pm every day
+  Alarm.alarmRepeat(20,10,10,Lights_Evening);   // 20:30pm every day
   Alarm.alarmRepeat(22,00,00,Lights_Night);     // 22:00pm every day 
 
  // create the alarms for Dosing Pumps 
@@ -113,7 +113,7 @@ void Lights_Evening(){
   analogWrite(CHL_2, 16); //Ch2- Blue1
   analogWrite(CHL_3, 16); //Ch2- Blue2
   analogWrite(CHL_4, 255); //Ch4- UV
-  analogWrite(CHL_5, 00); //Ch5- White
+  analogWrite(CHL_5, 05); //Ch5- White
   delay(1000);
 }
 
